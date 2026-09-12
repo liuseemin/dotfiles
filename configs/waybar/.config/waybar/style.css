@@ -1,0 +1,146 @@
+* {
+    border: none;
+    border-radius: 0;
+
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 13px;
+
+    min-height: 0;
+}
+
+
+/* ------------------------------
+ * Whole Waybar
+ * ------------------------------ */
+
+window#waybar {
+    background: transparent;
+    color: #cdd6f4;
+}
+
+
+/* ------------------------------
+ * Workspace island
+ * ------------------------------ */
+
+#workspaces {
+    background: rgba(30, 30, 46, 0.92);
+
+    margin: 0;
+    padding: 3px 5px;
+
+    border-radius: 12px;
+}
+
+
+#workspaces button {
+    color: #a6adc8;
+
+    padding: 0 7px;
+    margin: 0 1px;
+
+    border-radius: 8px;
+
+    background: transparent;
+}
+
+
+#workspaces button:hover {
+    background: rgba(137, 180, 250, 0.15);
+    color: #89b4fa;
+}
+
+
+#workspaces button.active {
+    background: #89b4fa;
+    color: #1e1e2e;
+
+    min-width: 24px;
+}
+
+
+#workspaces button.urgent {
+    background: #f38ba8;
+    color: #1e1e2e;
+}
+
+
+/* ------------------------------
+ * Clock
+ * ------------------------------ */
+
+#clock {
+    background: rgba(30, 30, 46, 0.92);
+
+    color: #cdd6f4;
+
+    padding: 0 14px;
+
+    border-radius: 12px;
+}
+
+
+/* ------------------------------
+ * Right-side modules
+ * ------------------------------ */
+
+#network,
+#pulseaudio,
+#battery,
+#custom-power {
+    background: rgba(30, 30, 46, 0.92);
+
+    padding: 0 10px;
+
+    color: #cdd6f4;
+}
+
+
+/* left rounded */
+
+#network {
+    border-radius: 12px 0 0 12px;
+}
+
+
+/* right rounded */
+
+#custom-power {
+    border-radius: 0 12px 12px 0;
+
+    color: #f38ba8;
+
+    padding-right: 12px;
+}
+
+
+/* battery warning */
+
+#battery.warning {
+    color: #f9e2af;
+}
+
+
+#battery.critical {
+    color: #f38ba8;
+}
+
+
+/* ------------------------------
+ * Tooltip
+ * ------------------------------ */
+
+tooltip {
+    background: #1e1e2e;
+
+    border: 1px solid #45475a;
+
+    border-radius: 10px;
+}
+
+
+tooltip label {
+    color: #cdd6f4;
+
+    padding: 6px;
+}
