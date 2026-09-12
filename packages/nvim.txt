@@ -1,0 +1,6 @@
+ipgrep
+fd
+lazygit
+fzf
+tree-sitter-cli
+tectonic
