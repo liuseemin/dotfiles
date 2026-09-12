@@ -22,6 +22,7 @@
     "network",
     "pulseaudio",
     "battery",
+    "tray",
     "custom/power"
   ],
 
@@ -91,6 +92,12 @@
       "",
       ""
     ]
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "max-size": 16,
+    "spacing": 10
   },
 
   "custom/power": {

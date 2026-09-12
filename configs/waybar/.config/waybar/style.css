@@ -87,6 +87,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #battery,
+#tray,
 #custom-power {
     background: rgba(30, 30, 46, 0.92);
 
